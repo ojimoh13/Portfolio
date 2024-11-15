@@ -8,21 +8,22 @@ const ProjectCardData = [
         imgsrc: proj1, 
         title: "Pictures slides",
         text:"This is picture slides showcase the beauty of nature",
-        view: "C:\Users\dashi\OneDrive\Desktop\portfolio\my-app\src\projects\Oluwadamilare_JavaScript_Assignment_3\index.html",
+        view:"",
+        
     },
     {
         
             imgsrc: proj2, 
             title: "Online Game",
             text:"Users can play games online",
-            view:"C:\Users\dashi\OneDrive\Desktop\portfolio\my-app\src\projects\Oluwadamilare_JavaScript_Assignment_3\index.html",
+            view:"",
         
     },
     {
         imgsrc: proj3, 
             title: "Dynamic Table Generator",
             text:"Online calculator",
-            view:"C:\Users\dashi\OneDrive\Desktop\portfolio\my-app\src\projects\assignment1\assignment1.html",
+            view:"",
         
 
     },

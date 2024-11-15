@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./AboutContent.css";
 import MyPic from "../imgs/myPhoto.jpeg";
-import techPic from "../imgs/it-tech.jpg"
+
 
 import React from 'react'
 
