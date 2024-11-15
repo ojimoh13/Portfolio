@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Simple Canvas Game</title>
+		<style>
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+				margin: 0;
+				background-color: #f0f0f0;
+			}
+			#game-container {
+				text-align: center;
+			}
+			canvas {
+				display: block;
+				margin: 0 auto;
+			}
+			button {
+				display: block;
+				margin: 10px auto;
+				padding: 10px 20px;
+				font-size: 16px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id = "container">
+		<canvas id="gameCanvas" width="512" height="480"></canvas>
+		<button id="resetSpeedButton">Reset Speed</button>
+		<button id="resetScoreButton">Reset Score</button>
+		</div>
+		<script src="js/game.js"></script>
+	</body>
+</html>

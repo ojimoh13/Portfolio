@@ -1,0 +1,60 @@
+.footer {
+    width: 100%;
+    padding: 6rem 0;
+    background-color: rgba(19, 19, 19, 0.8) ;
+}
+
+.footer-container {
+    max-width: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid-gap: 20px;
+}
+
+.left, .right{
+    color: #fff;
+}
+
+.location, .contact-info, .email{
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.contact-info .phone, .contact-info .email{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.right h4 {
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+}
+
+.right p {
+    font-size: 0.9rem;
+}
+
+.social {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.social svg {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+@media screen and (max-width: 640px) {
+    .footer-container{
+        grid-template-columns: 1fr;
+       
+    }
+}
