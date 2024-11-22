@@ -1,6 +1,6 @@
 .hero-img {
     width: 100%;
-    background: rgba(235, 232, 232, 0.5);
+    background: rgba(67, 65, 65, 0.5);
     height: 60vh;
     position: relative;
 }
@@ -25,6 +25,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: black;
 }
 .hero-img h1 {
     font-size: 2.4;

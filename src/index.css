@@ -11,14 +11,21 @@
 }
 
 body{
-  background: #858484;
+  background: rgb(72, 70, 70);
 }
 
-h1,
-h4,
-p,
+h1 {
+  color: #080808;
+  text-decoration: transparent;
+}
+h4 {
+  color:rgb(103, 139, 103)
+}
+p {
+  color: white;
+}
 a {
-  color: #fff;
+  color: #e0d0d0;
   text-decoration: none;
 }
 

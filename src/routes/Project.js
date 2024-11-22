@@ -11,7 +11,7 @@ const Project = () => {
   return (
     <div>
       <Navbar />
-      <Heroimg2 heading="PROJECTS." text="Some of my most recent works" />
+      <Heroimg2 heading="PROJECTS." text="Some of my most recent works" style={{color: "blue"}} />
       <Work />
       <PrincingCard />
       <FooterNew />
